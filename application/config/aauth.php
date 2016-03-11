@@ -120,7 +120,7 @@ $config_aauth["default"] = array(
 	'verification_link'              => '/account/verification/',
 	'reset_password_link'            => '/account/reset_password/',
 
-	'hash'							 =>	'sha256'
+	'hash'                           => 'sha512'
 );
 
 $config['aauth'] = $config_aauth['default'];
